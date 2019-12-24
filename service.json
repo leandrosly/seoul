@@ -1,0 +1,13 @@
+[
+    {
+      "name": "whoami",
+      "image": "emilevauge/whoami",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,13 @@
+[
+    {
+      "name": "zabbix",
+      "image": "zabbix/zabbix-web-nginx-pgsql",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
